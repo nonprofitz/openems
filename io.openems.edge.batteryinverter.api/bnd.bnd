@@ -1,0 +1,19 @@
+Bundle-Name: OpenEMS Edge Battery Inverter Api
+Bundle-Vendor: FENECON GmbH
+Bundle-License: https://opensource.org/licenses/EPL-2.0
+Bundle-Version: 1.0.0.${tstamp}
+Export-Package:  \
+	io.openems.edge.batteryinverter.api
+	
+Require-Capability: \
+	compile-only
+
+-includeresource: {readme.md}
+
+-buildpath: ${buildpath},\
+	slf4j.api
+
+-testpath: ${testpath}
+
+javac.source: 1.8
+javac.target: 1.8

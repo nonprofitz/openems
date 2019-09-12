@@ -1,0 +1,34 @@
+There are different devices existing, 
+we can categorize it in the following groups:
+
+- Single phase inverters 
+- Three phase symmetric inverters
+- Three phase asymmetric inverters
+
+All of them can be an "island inverter" i.e. they're able to start in blackstart mode and build their own grid.
+Then we can tell or have to tell the inverter the grid characteristics: voltage and frequency
+All of them can be able to do reactive power, 
+ 
+- not every inverter is able to to reactive power
+
+Context of active and reactive power:
+	 
+	(apparent power) * (cos phi) = (active power)
+	(active power)² + (reactive power)² = (apparent power)²
+
+	
+================================================
+
+General:
+
+// Does not belong to battery inverter api, it is general for any device 
+//public interface Device {
+//
+//	void start();
+//	void stop();
+//	
+//	// E.g. Software version, device number... whatever...
+//	String getDeviceInfo();
+//	
+//	State getState() // OFF, STARTING, RUNNING.....
+//}

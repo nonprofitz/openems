@@ -1,30 +1,8 @@
-# Backend-to-Backend REST-Api
+# io.openems.edge.meter.simulated Provider
 
-## Endpoint '/jsonrpc'
+${Bundle-Description}
 
-Properties 'id' and 'jsonrpc' can be omitted, as they are not required for HTTP POST calls.
+## Example
 
-### getEdgesStatus
+## References
 
-```
-{
-  "method": "getEdgesStatus",
-  "params": {}
-}
-```
-
-### getEdgesChannelsValues
-
-```
-{
-  "method":"getEdgesChannelsValues",
-  "params": {
-    "ids": [
-      "edge0"
-    ],
-    "channels": [
-      "_sum/State"
-    ]
-  }
-}
-```

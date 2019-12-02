@@ -215,7 +215,7 @@ public class Data {
 					essId, Phase.ALL, Pwr.ACTIVE, Relationship.GREATER_OR_EQUALS, //
 					ess.getAllowedCharge().value().orElse(0)));
 
-			// Allowed Charge Power
+			// Allowed Discharge Power
 			result.add(this.createSimpleConstraint(essId + ": Allowed Discharge", //
 					essId, Phase.ALL, Pwr.ACTIVE, Relationship.LESS_OR_EQUALS, //
 					ess.getAllowedDischarge().value().orElse(0)));

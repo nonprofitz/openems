@@ -1,0 +1,6 @@
+= BMW Battery
+
+Implemented Natures::
+- Battery
+
+https://github.com/OpenEMS/openems/tree/develop/io.openems.edge.battery.bmw[Source Code icon:github[]]

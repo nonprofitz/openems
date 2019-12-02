@@ -8,7 +8,8 @@ Export-Package: \
 	io.openems.edge.battery.soltaro.cluster.versiona,\
 	io.openems.edge.battery.soltaro.single.versionb,\
 	io.openems.edge.battery.soltaro.single.versiona,\
-	io.openems.edge.battery.soltaro.cluster.versionb
+	io.openems.edge.battery.soltaro.cluster.versionb,\
+	io.openems.edge.battery.byd.single131
 	
 -includeresource: {readme.adoc}
 

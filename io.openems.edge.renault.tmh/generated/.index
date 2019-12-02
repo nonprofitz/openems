@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="io.openems.edge.renault.tmh" increment="1574682886592">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="io.openems.edge.renault.tmh"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="io.openems.edge.renault.tmh"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.host" value="io.openems.edge.renault.tmh"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="6304" type="Long"/>
+      <attribute name="url" value="generated/io.openems.edge.renault.tmh.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="64642C6EA16265CC216E5CDC8277ABEB481440EE6DB132128F78AAA83A90D7E8"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/C:/Users/wolfgang.miethaner/git/openems_ws"/>
+      <attribute name="project.path" value="/io.openems.edge.renault.tmh"/>
+    </capability>
+  </resource>
+</repository>

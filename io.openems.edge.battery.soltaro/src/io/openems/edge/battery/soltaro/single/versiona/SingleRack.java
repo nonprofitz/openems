@@ -281,7 +281,9 @@ public class SingleRack extends AbstractOpenemsModbusComponent
 					this.pendingTimestamp = null;
 				}
 			}
-			break;		
+			break;
+		case ERROR_HANDLING:
+			break;	
 		}
 
 		this.getReadyForWorking().setNextValue(readyForWorking);
